@@ -1,0 +1,58 @@
+{
+  "sections": [
+    {
+      "name": "person",
+      "label": "Osoba",
+      "fields": [
+        {
+          "label": "Imie",
+          "name": "firstName",
+          "id": "name",
+          "default": "Jan"
+        },
+        {
+          "label": "Nazwisko",
+          "name": "lastName",
+          "id": "lastName",
+          "default": "Nowak"
+        }
+      ]
+    },
+    {
+      "name": "address",
+      "label": "Adres",
+      "fields": [
+        {
+          "label": "Ulica",
+          "name": "street",
+          "id": "street",
+          "default": "Plac Europejski 1"
+        },
+        {
+          "label": "Position",
+          "name": "position",
+          "id": "position",
+          "default": "Developer"
+        }
+      ]
+    },
+    {
+      "name": "job",
+      "label": "Praca",
+      "fields": [
+        {
+          "label": "Firma",
+          "name": "company",
+          "id": "company",
+          "default": "Nazwa firmy"
+        },
+        {
+          "label": "Position",
+          "name": "position",
+          "id": "position",
+          "default": "Developer"
+        }
+      ]
+    }
+  ]
+}
